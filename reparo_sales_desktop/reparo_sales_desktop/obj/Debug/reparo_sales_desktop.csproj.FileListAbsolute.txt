@@ -1,0 +1,9 @@
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.exe
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.pdb
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.AssemblyReference.cache
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Form1.resources
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Properties.Resources.resources
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.GenerateResource.cache
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CoreCompileInputs.cache
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.exe
+C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.pdb
