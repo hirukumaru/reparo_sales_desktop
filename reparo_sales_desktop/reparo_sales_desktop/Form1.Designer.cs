@@ -46,6 +46,7 @@
             this.tusername.Size = new System.Drawing.Size(140, 22);
             this.tusername.TabIndex = 0;
             this.tusername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tusername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tusername_KeyDown);
             // 
             // tpassword
             // 
@@ -56,6 +57,7 @@
             this.tpassword.Size = new System.Drawing.Size(140, 22);
             this.tpassword.TabIndex = 1;
             this.tpassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tpassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tpassword_KeyDown);
             // 
             // label1
             // 
