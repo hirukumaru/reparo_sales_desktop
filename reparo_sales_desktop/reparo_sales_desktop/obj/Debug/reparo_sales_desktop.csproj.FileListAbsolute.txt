@@ -14,3 +14,10 @@ D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\
 D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CoreCompileInputs.cache
 D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.exe
 D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.exe
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\BLL.dll
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\DAL.dll
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\BLL.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\DAL.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CopyComplete

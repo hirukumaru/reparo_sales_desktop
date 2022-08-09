@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cdb68ca9-1a86-40b4-8cff-080908108a5c": {
+      "ProjectGuid": "cdb68ca9-1a86-40b4-8cff-080908108a5c",
+      "DisplayName": "reparo_sales_desktop",
+      "ColorIndex": 0
+    },
+    "d55be7eb-278a-44b6-8181-041a37805a7b": {
+      "ProjectGuid": "d55be7eb-278a-44b6-8181-041a37805a7b",
+      "DisplayName": "BLL",
+      "ColorIndex": 1
+    },
+    "83bf4f42-cc9e-4523-9fa2-9f8b0d6dbfe9": {
+      "ProjectGuid": "83bf4f42-cc9e-4523-9fa2-9f8b0d6dbfe9",
+      "DisplayName": "DAL",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
