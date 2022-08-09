@@ -49,10 +49,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +95,60 @@
       <Project>{83BF4F42-CC9E-4523-9FA2-9F8B0D6DBFE9}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\stock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\cashbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\debtors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\newsale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\newpayment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\icons\quickaccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\homebackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\background4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\background2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

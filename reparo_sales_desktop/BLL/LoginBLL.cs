@@ -38,6 +38,8 @@ namespace BLL
             {
                 User user = new User();
 
+                user.username = "Dev User";
+
                 return user;
             }
             catch (Exception ex)

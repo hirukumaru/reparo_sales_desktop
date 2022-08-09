@@ -7,12 +7,12 @@ namespace DAL
 {
     public class User
     {
-        int user_id { get; set; }
-        string full_name { get; set; }
-        string username { get; set; }
-        string password { get; set; }
-        string user_typ { get; set; }
-        bool is_active { get; set; }
+        public int user_id { get; set; }
+        public string full_name { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string user_typ { get; set; }
+        public bool is_active { get; set; }
 
     }
 }
