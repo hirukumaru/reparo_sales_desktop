@@ -1,0 +1,9 @@
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\BLL.dll
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\BLL.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\DAL.dll
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\DAL.pdb
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.dll
+D:\git\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.pdb
