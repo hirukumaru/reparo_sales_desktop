@@ -27,3 +27,18 @@ C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sale
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\DAL.pdb
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CopyComplete
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Home.resources
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.exe
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\reparo_sales_desktop.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\BLL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\DAL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\BLL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\bin\Debug\DAL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.AssemblyReference.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Login.resources
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Home.resources
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.Properties.Resources.resources
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.GenerateResource.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CoreCompileInputs.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.csproj.CopyComplete
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.exe
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.pdb

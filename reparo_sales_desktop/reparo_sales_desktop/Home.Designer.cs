@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.itemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itemListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.salesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemsBar = new System.Windows.Forms.ToolStripMenuItem();
+            this.salesMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newSaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salesBar = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newReceivingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.receivingListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -49,16 +49,16 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.stockReturnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.paymentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockBar = new System.Windows.Forms.ToolStripMenuItem();
+            this.paymentsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newReceiptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.receiptListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.cashBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.debtorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.paymentBar = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.todaySaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.todayIncomeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesSummaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,7 +80,7 @@
             this.paymentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentSummaryToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.debtorsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportsBar = new System.Windows.Forms.ToolStripMenuItem();
             this.newSaleToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.newReceiptToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
@@ -96,16 +96,16 @@
             this.menuStrip.BackColor = System.Drawing.Color.White;
             this.menuStrip.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.itemsToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.salesToolStripMenuItem,
-            this.toolStripMenuItem4,
-            this.stockToolStripMenuItem,
-            this.toolStripMenuItem5,
-            this.paymentToolStripMenuItem,
-            this.toolStripMenuItem6,
-            this.reportsToolStripMenuItem,
-            this.toolStripMenuItem1,
+            this.itemsMenu,
+            this.itemsBar,
+            this.salesMenu,
+            this.salesBar,
+            this.stockMenu,
+            this.stockBar,
+            this.paymentsMenu,
+            this.paymentBar,
+            this.reportsMenu,
+            this.reportsBar,
             this.newSaleToolStripMenuItem1,
             this.newReceiptToolStripMenuItem1,
             this.toolStripMenuItem3});
@@ -116,19 +116,19 @@
             this.menuStrip.Text = "MenuStrip";
             this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
-            // itemsToolStripMenuItem
+            // itemsMenu
             // 
-            this.itemsToolStripMenuItem.AutoSize = false;
-            this.itemsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.itemsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemsMenu.AutoSize = false;
+            this.itemsMenu.BackColor = System.Drawing.Color.Transparent;
+            this.itemsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newItemToolStripMenuItem,
             this.itemListToolStripMenuItem});
-            this.itemsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.itemsToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.item;
-            this.itemsToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.itemsToolStripMenuItem.Name = "itemsToolStripMenuItem";
-            this.itemsToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
-            this.itemsToolStripMenuItem.Text = "Items";
+            this.itemsMenu.ForeColor = System.Drawing.Color.Black;
+            this.itemsMenu.Image = global::reparo_sales_desktop.Properties.Resources.item;
+            this.itemsMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.itemsMenu.Name = "itemsMenu";
+            this.itemsMenu.Size = new System.Drawing.Size(85, 21);
+            this.itemsMenu.Text = "Items";
             // 
             // newItemToolStripMenuItem
             // 
@@ -144,25 +144,25 @@
             this.itemListToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.itemListToolStripMenuItem.Text = "Item List";
             // 
-            // toolStripMenuItem2
+            // itemsBar
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(23, 21);
-            this.toolStripMenuItem2.Text = "|";
+            this.itemsBar.Name = "itemsBar";
+            this.itemsBar.Size = new System.Drawing.Size(23, 21);
+            this.itemsBar.Text = "|";
             // 
-            // salesToolStripMenuItem
+            // salesMenu
             // 
-            this.salesToolStripMenuItem.AutoSize = false;
-            this.salesToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.salesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salesMenu.AutoSize = false;
+            this.salesMenu.BackColor = System.Drawing.Color.Transparent;
+            this.salesMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newSaleToolStripMenuItem,
             this.salesListToolStripMenuItem});
-            this.salesToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.salesToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.sales;
-            this.salesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.salesToolStripMenuItem.Name = "salesToolStripMenuItem";
-            this.salesToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
-            this.salesToolStripMenuItem.Text = "Sales";
+            this.salesMenu.ForeColor = System.Drawing.Color.Black;
+            this.salesMenu.Image = global::reparo_sales_desktop.Properties.Resources.sales;
+            this.salesMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.salesMenu.Name = "salesMenu";
+            this.salesMenu.Size = new System.Drawing.Size(85, 21);
+            this.salesMenu.Text = "Sales";
             // 
             // newSaleToolStripMenuItem
             // 
@@ -178,17 +178,17 @@
             this.salesListToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.salesListToolStripMenuItem.Text = "Sales List";
             // 
-            // toolStripMenuItem4
+            // salesBar
             // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(23, 21);
-            this.toolStripMenuItem4.Text = "|";
+            this.salesBar.Name = "salesBar";
+            this.salesBar.Size = new System.Drawing.Size(23, 21);
+            this.salesBar.Text = "|";
             // 
-            // stockToolStripMenuItem
+            // stockMenu
             // 
-            this.stockToolStripMenuItem.AutoSize = false;
-            this.stockToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.stockToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stockMenu.AutoSize = false;
+            this.stockMenu.BackColor = System.Drawing.Color.Transparent;
+            this.stockMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newReceivingToolStripMenuItem,
             this.receivingListToolStripMenuItem,
             this.toolStripSeparator1,
@@ -199,12 +199,12 @@
             this.toolStripSeparator3,
             this.stockReturnToolStripMenuItem,
             this.returnListToolStripMenuItem});
-            this.stockToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.stockToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.stock;
-            this.stockToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
-            this.stockToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
-            this.stockToolStripMenuItem.Text = "Stock";
+            this.stockMenu.ForeColor = System.Drawing.Color.Black;
+            this.stockMenu.Image = global::reparo_sales_desktop.Properties.Resources.stock;
+            this.stockMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.stockMenu.Name = "stockMenu";
+            this.stockMenu.Size = new System.Drawing.Size(85, 21);
+            this.stockMenu.Text = "Stock";
             // 
             // newReceivingToolStripMenuItem
             // 
@@ -271,29 +271,29 @@
             this.returnListToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.returnListToolStripMenuItem.Text = "Return List";
             // 
-            // toolStripMenuItem5
+            // stockBar
             // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(23, 21);
-            this.toolStripMenuItem5.Text = "|";
+            this.stockBar.Name = "stockBar";
+            this.stockBar.Size = new System.Drawing.Size(23, 21);
+            this.stockBar.Text = "|";
             // 
-            // paymentToolStripMenuItem
+            // paymentsMenu
             // 
-            this.paymentToolStripMenuItem.AutoSize = false;
-            this.paymentToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.paymentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.paymentsMenu.AutoSize = false;
+            this.paymentsMenu.BackColor = System.Drawing.Color.Transparent;
+            this.paymentsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newReceiptToolStripMenuItem,
             this.receiptListToolStripMenuItem,
             this.toolStripSeparator4,
             this.cashBookToolStripMenuItem,
             this.toolStripSeparator5,
             this.debtorsToolStripMenuItem});
-            this.paymentToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.paymentToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.payment1;
-            this.paymentToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentToolStripMenuItem.Name = "paymentToolStripMenuItem";
-            this.paymentToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
-            this.paymentToolStripMenuItem.Text = "Payment";
+            this.paymentsMenu.ForeColor = System.Drawing.Color.Black;
+            this.paymentsMenu.Image = global::reparo_sales_desktop.Properties.Resources.payment1;
+            this.paymentsMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.paymentsMenu.Name = "paymentsMenu";
+            this.paymentsMenu.Size = new System.Drawing.Size(85, 21);
+            this.paymentsMenu.Text = "Payment";
             // 
             // newReceiptToolStripMenuItem
             // 
@@ -333,17 +333,17 @@
             this.debtorsToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.debtorsToolStripMenuItem.Text = "Debtors";
             // 
-            // toolStripMenuItem6
+            // paymentBar
             // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(23, 21);
-            this.toolStripMenuItem6.Text = "|";
+            this.paymentBar.Name = "paymentBar";
+            this.paymentBar.Size = new System.Drawing.Size(23, 21);
+            this.paymentBar.Text = "|";
             // 
-            // reportsToolStripMenuItem
+            // reportsMenu
             // 
-            this.reportsToolStripMenuItem.AutoSize = false;
-            this.reportsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportsMenu.AutoSize = false;
+            this.reportsMenu.BackColor = System.Drawing.Color.Transparent;
+            this.reportsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.todaySaleToolStripMenuItem,
             this.todayIncomeToolStripMenuItem,
             this.salesSummaryToolStripMenuItem,
@@ -356,12 +356,12 @@
             this.stockToolStripMenuItem1,
             this.toolStripSeparator9,
             this.paymentsToolStripMenuItem});
-            this.reportsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.reportsToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.reports;
-            this.reportsToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
-            this.reportsToolStripMenuItem.Text = "Reports";
+            this.reportsMenu.ForeColor = System.Drawing.Color.Black;
+            this.reportsMenu.Image = global::reparo_sales_desktop.Properties.Resources.reports;
+            this.reportsMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportsMenu.Name = "reportsMenu";
+            this.reportsMenu.Size = new System.Drawing.Size(85, 21);
+            this.reportsMenu.Text = "Reports";
             // 
             // todaySaleToolStripMenuItem
             // 
@@ -506,13 +506,13 @@
             this.debtorsToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
             this.debtorsToolStripMenuItem1.Text = "Debtors";
             // 
-            // toolStripMenuItem1
+            // reportsBar
             // 
-            this.toolStripMenuItem1.BackColor = System.Drawing.Color.Transparent;
-            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(23, 21);
-            this.toolStripMenuItem1.Text = "|";
+            this.reportsBar.BackColor = System.Drawing.Color.Transparent;
+            this.reportsBar.ForeColor = System.Drawing.Color.Black;
+            this.reportsBar.Name = "reportsBar";
+            this.reportsBar.Size = new System.Drawing.Size(23, 21);
+            this.reportsBar.Text = "|";
             // 
             // newSaleToolStripMenuItem1
             // 
@@ -576,6 +576,7 @@
             this.Text = "Company Name Here - Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
+            this.Load += new System.EventHandler(this.Home_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
@@ -591,10 +592,10 @@
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.ToolStripMenuItem salesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salesMenu;
         private System.Windows.Forms.ToolStripMenuItem newSaleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salesListToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stockMenu;
         private System.Windows.Forms.ToolStripMenuItem newReceivingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receivingListToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
@@ -605,7 +606,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem stockReturnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem returnListToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportsMenu;
         private System.Windows.Forms.ToolStripMenuItem todaySaleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem todayIncomeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salesSummaryToolStripMenuItem;
@@ -627,10 +628,9 @@
         private System.Windows.Forms.ToolStripMenuItem paymentsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paymentSummaryToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem debtorsToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem itemsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newItemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem itemListToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem paymentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem paymentsMenu;
         private System.Windows.Forms.ToolStripMenuItem newReceiptToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receiptListToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
@@ -639,12 +639,13 @@
         private System.Windows.Forms.ToolStripMenuItem debtorsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newSaleToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem newReceiptToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem reportsBar;
+        private System.Windows.Forms.ToolStripMenuItem itemsBar;
+        private System.Windows.Forms.ToolStripMenuItem salesBar;
+        private System.Windows.Forms.ToolStripMenuItem stockBar;
+        private System.Windows.Forms.ToolStripMenuItem paymentBar;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem itemsMenu;
     }
 }
 

@@ -7,32 +7,42 @@ using System.Data;
 
 namespace DAL
 {
-    internal class DB
+    public class DB
     {
-        SqlConnection conn = new SqlConnection("");
+        public SqlConnection conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=ReparoSales;User ID=sa;Password=REPARO");
 
         public DataSet getData(string query)
         {
             try
             {
-                DataSet dset = null;
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
 
-                SqlDataAdapter dadp = new SqlDataAdapter(query,conn);
+                DataSet dset = new DataSet();
 
-                dadp.Fill(dset);
+                SqlDataAdapter dadp = new SqlDataAdapter(query, conn);              
+
+                dadp.Fill(dset);                
 
                 return dset;
             }
             catch (Exception ex)
             {
                 return null;
-            }
+            }            
         }
 
         public bool runQuery(string query)
         {
             try
             {
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
+
                 SqlCommand cmd = new SqlCommand(query,conn);
 
                 bool ret = Convert.ToBoolean(cmd.ExecuteNonQuery());

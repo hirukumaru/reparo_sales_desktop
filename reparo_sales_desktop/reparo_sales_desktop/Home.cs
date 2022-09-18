@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using BLL;
+using DAL;
 
 namespace reparo_sales_desktop
 {
@@ -116,6 +118,24 @@ namespace reparo_sales_desktop
         private void xToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            MenuAccessBLL access = new MenuAccessBLL();
+
+            MenuAccess ma = access.getMenuAccessList(1);
+
+            itemsMenu.Visible = ma.items;
+            itemsBar.Visible = ma.items;
+            salesMenu.Visible = ma.sales;
+            salesBar.Visible = ma.sales;
+            stockMenu.Visible = ma.stock;
+            stockBar.Visible = ma.stock;
+            paymentsMenu.Visible = ma.payment;
+            paymentBar.Visible = ma.payment;
+            reportsMenu.Visible = ma.reports;
+            reportsBar.Visible = ma.reports;
         }
     }
 }

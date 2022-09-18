@@ -16,3 +16,12 @@ C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sale
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.dll
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\BLL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\BLL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\DAL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\bin\Debug\DAL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\BLL\obj\Debug\BLL.pdb

@@ -9,3 +9,9 @@ C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sale
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.dll
 C:\Users\anonymous\Documents\Visual Studio 2022\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\bin\Debug\DAL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\bin\Debug\DAL.pdb
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.dll
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\DAL\obj\Debug\DAL.pdb
