@@ -7,11 +7,11 @@ using System.Data;
 
 namespace DAL
 {
-    public class DB
+    public static class DB
     {
-        public SqlConnection conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=ReparoSales;User ID=sa;Password=REPARO");
+        public static SqlConnection conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=ReparoSales;User ID=sa;Password=REPARO");
 
-        public DataSet getData(string query)
+        public static DataSet getData(string query)
         {
             try
             {
@@ -34,7 +34,7 @@ namespace DAL
             }            
         }
 
-        public bool runQuery(string query)
+        public static bool runQuery(string query)
         {
             try
             {

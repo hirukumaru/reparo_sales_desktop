@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using DAL;
@@ -38,7 +39,17 @@ namespace BLL
             {
                 User user = new User();
 
-                user.username = "Dev User";
+                DataSet userData = DB.getData("exec login " + username +","+ password);
+
+                if (userData != null)
+                {
+                    user.user_id = Convert.ToInt32(userData.Tables[0].Rows[0].ItemArray[0]);
+                    user.company_id = Convert.ToInt32(userData.Tables[0].Rows[0].ItemArray[1]);
+                    user.full_name = Convert.ToString(userData.Tables[0].Rows[0].ItemArray[2]);
+                    user.username = Convert.ToString(userData.Tables[0].Rows[0].ItemArray[3]);
+                    user.user_type_id = Convert.ToInt32(userData.Tables[0].Rows[0].ItemArray[5]);
+                    user.user_type = Convert.ToString(userData.Tables[0].Rows[0].ItemArray[6]);
+                }                
 
                 return user;
             }

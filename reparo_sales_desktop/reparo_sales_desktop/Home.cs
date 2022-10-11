@@ -15,8 +15,14 @@ namespace reparo_sales_desktop
     {
         private int childFormNumber = 0;
 
-        public Home()
+        public User loggedUser;
+        public CompanyData companyData;
+
+        public Home(User user, CompanyData company)
         {
+            loggedUser = user;
+            companyData = company;
+
             InitializeComponent();
         }
 
@@ -122,9 +128,12 @@ namespace reparo_sales_desktop
 
         private void Home_Load(object sender, EventArgs e)
         {
+            this.Text = companyData.CompanyName + " - Home";
+            totipcurrentuser.Text = "| Current User : " + loggedUser.full_name + " | Access Level : " + loggedUser.user_type + " | ";
+
             MenuAccessBLL access = new MenuAccessBLL();
 
-            MenuAccess ma = access.getMenuAccessList(1);
+            MenuAccess ma = access.getMenuAccessList(loggedUser.company_id, loggedUser.user_id);
 
             itemsMenu.Visible = ma.items;
             itemsBar.Visible = ma.items;
@@ -136,6 +145,25 @@ namespace reparo_sales_desktop
             paymentBar.Visible = ma.payment;
             reportsMenu.Visible = ma.reports;
             reportsBar.Visible = ma.reports;
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void itemListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ItemList il = new ItemList();
+            il.MdiParent = this;
+            il.Show();
+        }
+
+        private void newItemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewItem ni = new NewItem(loggedUser);
+            ni.MdiParent = this;
+            ni.Show();
         }
     }
 }

@@ -13,6 +13,8 @@ namespace reparo_sales_desktop
 {
     public partial class Login : Form
     {
+        CompanyData compdata;
+
         public Login()
         {
             InitializeComponent();
@@ -40,9 +42,9 @@ namespace reparo_sales_desktop
                 {
                     user = loginbll.login(tusername.Text, tpassword.Text);
 
-                    if (user.username != null)
+                    if (user != null)
                     {
-                        Home home = new Home();
+                        Home home = new Home(user,compdata);
                         home.Show();
                         this.Hide();
                     }
@@ -81,6 +83,33 @@ namespace reparo_sales_desktop
             if (e.KeyCode == Keys.Enter)
             {
                 log();
+            }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                CompanyDataBLL compdatabll = new BLL.CompanyDataBLL();
+
+                compdata = compdatabll.getCompanyData();
+
+                if (compdata != null)
+                {
+                    lacompanydata.Text = compdata.CompanyName;
+                }
+                else
+                {
+                    MessageBox.Show(this, "Invalid company data.","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Application.Exit();
+                }
+
+                //pcompanylogo.BackgroundImage = Image.FromFile("C:\\REPARO\\companylogo.png");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
