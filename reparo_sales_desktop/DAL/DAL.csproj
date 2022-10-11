@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyData.cs" />
     <Compile Include="DB.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemType.cs" />
     <Compile Include="MenuAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />

@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyDataBLL.cs" />
+    <Compile Include="ItemBLL.cs" />
+    <Compile Include="ItemTypeBLL.cs" />
     <Compile Include="LoginBLL.cs" />
     <Compile Include="MenuAccessBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

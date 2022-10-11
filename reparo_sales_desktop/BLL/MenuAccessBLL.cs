@@ -9,13 +9,13 @@ namespace BLL
 {
     public class MenuAccessBLL
     {
-        public MenuAccess getMenuAccessList(int companyId)
+        public MenuAccess getMenuAccessList(int companyId, int userId)
         {
             MenuAccess ma = new MenuAccess();
 
-            DB db = new DB();
+            //DB db = new DB();
 
-            DataSet dset = db.getData("exec getMenuAccessList " + 1);
+            DataSet dset = DB.getData("exec getMenuAccessList " + companyId + "," + userId);
 
             ma.items = Convert.ToBoolean(dset.Tables[0].Rows[0].ItemArray[0]);
             ma.sales = Convert.ToBoolean(dset.Tables[0].Rows[0].ItemArray[1]);
