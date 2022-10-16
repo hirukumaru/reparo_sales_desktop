@@ -136,7 +136,7 @@
             // 
             this.newItemToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.add;
             this.newItemToolStripMenuItem.Name = "newItemToolStripMenuItem";
-            this.newItemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newItemToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.newItemToolStripMenuItem.Text = "New Item";
             this.newItemToolStripMenuItem.Click += new System.EventHandler(this.newItemToolStripMenuItem_Click);
             // 
@@ -144,7 +144,7 @@
             // 
             this.itemListToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.list;
             this.itemListToolStripMenuItem.Name = "itemListToolStripMenuItem";
-            this.itemListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.itemListToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.itemListToolStripMenuItem.Text = "Item List";
             this.itemListToolStripMenuItem.Click += new System.EventHandler(this.itemListToolStripMenuItem_Click);
             // 
@@ -172,14 +172,15 @@
             // 
             this.newSaleToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.add;
             this.newSaleToolStripMenuItem.Name = "newSaleToolStripMenuItem";
-            this.newSaleToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.newSaleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newSaleToolStripMenuItem.Text = "New Sale";
+            this.newSaleToolStripMenuItem.Click += new System.EventHandler(this.newSaleToolStripMenuItem_Click);
             // 
             // salesListToolStripMenuItem
             // 
             this.salesListToolStripMenuItem.Image = global::reparo_sales_desktop.Properties.Resources.list;
             this.salesListToolStripMenuItem.Name = "salesListToolStripMenuItem";
-            this.salesListToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.salesListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salesListToolStripMenuItem.Text = "Sales List";
             // 
             // salesBar
@@ -526,6 +527,7 @@
             this.newSaleToolStripMenuItem1.Name = "newSaleToolStripMenuItem1";
             this.newSaleToolStripMenuItem1.Size = new System.Drawing.Size(90, 21);
             this.newSaleToolStripMenuItem1.Text = "New Sale";
+            this.newSaleToolStripMenuItem1.Click += new System.EventHandler(this.newSaleToolStripMenuItem1_Click);
             // 
             // newReceiptToolStripMenuItem1
             // 
