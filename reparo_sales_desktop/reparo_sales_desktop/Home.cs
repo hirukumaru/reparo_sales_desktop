@@ -165,5 +165,19 @@ namespace reparo_sales_desktop
             ni.MdiParent = this;
             ni.Show();
         }
+
+        private void newSaleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewSale ns = new NewSale(loggedUser);
+            ns.MdiParent = this;
+            ns.Show();
+        }
+
+        private void newSaleToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            NewSale ns = new NewSale(loggedUser);
+            ns.MdiParent = this;
+            ns.Show();
+        }
     }
 }

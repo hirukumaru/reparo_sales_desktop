@@ -44,3 +44,4 @@ D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales
 D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.exe
 D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.pdb
 D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.NewItem.resources
+D:\2 c sharp developments\reparo_sales_desktop\reparo_sales_desktop\reparo_sales_desktop\obj\Debug\reparo_sales_desktop.NewSale.resources
