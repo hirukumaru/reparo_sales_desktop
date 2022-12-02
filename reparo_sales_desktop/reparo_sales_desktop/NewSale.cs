@@ -175,5 +175,10 @@ namespace reparo_sales_desktop
         {
             getItemDataByCode(titemcode.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
